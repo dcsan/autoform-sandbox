@@ -37,6 +37,6 @@ Package.on_use(function (api) {
     'client/adminSetup.html',
   ], 'client' );
 
-  api.export(['AdminConfig', 'Examples', 'LocoText'])
+  api.export(['AdminConfig', 'Examples', 'LocoText', 'LocoTextSchema'])
 
 });

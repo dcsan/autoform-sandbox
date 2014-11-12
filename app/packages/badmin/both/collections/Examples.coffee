@@ -8,7 +8,7 @@ ExamplesSchema = new SimpleSchema
 
   nested:
     label: "nested [LocoText]"
-    type: [LocoText]
+    type: [LocoTextSchema]
     # autoform:
     #   type: 'textarea'
 
