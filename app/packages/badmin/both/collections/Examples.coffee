@@ -6,7 +6,8 @@ ExamplesSchema = new SimpleSchema
   blob:
     type: String
 
-  locotext:
+  nested:
+    label: "nested [LocoText]"
     type: [LocoText]
     # autoform:
     #   type: 'textarea'

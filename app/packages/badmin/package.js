@@ -29,8 +29,8 @@ Package.on_use(function (api) {
     'both/adminConfig.coffee',
     'both/startup.coffee',
     'both/routes.coffee',
-    'both/collections/Examples.coffee',
-    'both/collections/LocoText.coffee'
+    'both/collections/LocoText.coffee',
+    'both/collections/Examples.coffee',  // examples embeds locotext
   ], ['client', 'server']);
 
   api.addFiles([

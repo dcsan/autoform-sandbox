@@ -1,0 +1,1 @@
+cd app && meteor deploy autoform-sandbox
