@@ -9,9 +9,6 @@ ExamplesSchema = new SimpleSchema
   nested:
     label: "nested [LocoText]"
     type: [LocoTextSchema]
-    # autoform:
-    #   type: 'textarea'
-
 
 
 Examples = new Meteor.Collection('Examples')

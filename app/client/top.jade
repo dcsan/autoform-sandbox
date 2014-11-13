@@ -1,0 +1,26 @@
+template(name='top')
+
+  .container
+    h1 top menu
+    p {{loginButtons}}
+
+    h3 Demo of Yogiben / Meteor-admin
+    
+    a(href='/admin') admin page
+    p login as: a@a.com  /  123456
+
+    h2 examples of different features
+    h3 Nested objects
+    p
+      a(href='/admin/LocoText/new') LocoText
+      | objects can be nested inside another
+      a(href='/admin/Examples/new') Example object
+      a(href="https://github.com/dcsan/autoform-sandbox/blob/master/app/packages/badmin/both/collections/Examples.coffee") examples source
+
+    h2 source
+    p yogiben:meteor-admin
+    a(href='https://github.com/yogiben/meteor-admin') github
+    
+    br
+    p source for this demo app here:
+    a(href='https://github.com/dcsan/autoform-sandbox') github
