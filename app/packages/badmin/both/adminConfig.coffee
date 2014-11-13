@@ -8,6 +8,7 @@ AdminConfig = {
       color: 'green'
       tableColumns: [
         {name: 'cname', label: 'cname'}
+        {name: 'blob', label: 'blob'}
       ]
     }
 

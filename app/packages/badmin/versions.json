@@ -101,6 +101,10 @@
       "1.0.4"
     ],
     [
+      "ephemer:reactive-datatables",
+      "1.0.0"
+    ],
+    [
       "fastclick",
       "1.0.1"
     ],

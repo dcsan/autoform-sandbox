@@ -13,6 +13,7 @@ Package.on_use(function (api) {
     'underscore',
     'coffeescript',
     'iron:router@1.0.0',
+    'aldeed:collection2@2.1.0 || 2.2.0',
     'aldeed:simple-schema@1.1.0',
     "aldeed:autoform@4.0.0"
 
